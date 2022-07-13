@@ -2,20 +2,24 @@ package com.galvanize.javaplayground;
 
 public class Application {
 
+    /*
+    I - 1
+    V - 5
+    X - 10
+    L - 50
+    C - 100
+    D - 500
+    M - 1000
+    */
+
     public static void main(String[] args) {
-        System.out.println(fizzBuzz(18));
+
     }
 
-    public static String fizzBuzz(int input) {
-        if (input % 3 == 0 && input % 5 == 0) {
-            return "FizzBuzz";
-        } else if (input % 3 == 0) {
-            return "Fizz";
-        } else if (input % 5 == 0) {
-            return "Buzz";
-        } else {
-            return Integer.toString(input);
+    public static int romanToDecimal(String romanNumeral) {
+        int decimal = 0;
+        for (int i = 0; i < romanNumeral.length(); i++) {
+            if (romanNumeral[i].equals("I"))
         }
     }
-
 }
